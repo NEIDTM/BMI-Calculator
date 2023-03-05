@@ -12,31 +12,41 @@
         <div class="Header">
             <h1>BMI CALCULATOR</h1>
         </div>
+
+
             <div class="Age">
                 <p>Age</p>
-                <input type="number" placeholder="1 Years" required>
+                <input class="age-input-field" type="number" placeholder="1 Years" required>
             </div>
+
             <div class="Gender">
                 <p>Gender</p>
-                <select name="Gender" id="Gender">
+                <select class="gender-input-field" name="Gender" id="Gender">
                     <option disabled selected></option>
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
                 </select>
             </div>
+
             <div class="Height">
                 <p>Height</p>
-                <input type="number" placeholder="1 M" required>
+                <input class="height-input-field" type="number" placeholder="1 Centimetre" required>
             </div>
+
             <div class="Weight">
                 <p>Weight</p>
-                <input type="number" placeholder="1 kq" required>
+                <input class="weight-input-field" type="number" placeholder="1 Kilogram" required>
             </div>
+
+
         <div class="Calculate">
-            <button>Calculate</button>
+            
+            <button class="calc"> Calculate </button>
+
         </div>
+
         <div class="Score">
-            <h3>Your BMI is: <b>00</b> </h3>
+            <h3>Your BMI is: <b class="Result">00</b> </h3>
         </div>
     </div>
     <script src="settings.js"></script>

@@ -148,6 +148,12 @@ button {
 
 button:hover {
     background-color: rgb(26, 26, 26);
+    transition: 0.5s;
+}
+
+button:active {
+    background-color: rgb(99, 99, 99);
+    transition: 0.1s;
 }
 
 h3 {
