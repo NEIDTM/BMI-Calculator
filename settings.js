@@ -21,7 +21,7 @@ CalcButton.addEventListener("click", () =>{
         // alert(BMI)
     }
     else if (GenderInput.value == 2) {
-        BMI = ((age * height) / weight) * 0;
+        BMI = ((age * height) / weight) * 3;
         Result.innerText = BMI;
         // alert(BMI)
     }
