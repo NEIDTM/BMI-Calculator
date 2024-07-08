@@ -19,6 +19,8 @@
 /* styles for mobile devices */
 @media only screen and (max-width: 767px) {
   body {
+    align-items: center;
+    justify-content: center;
     font-size: 12px;
     width: 100%;
     margin: 0;
