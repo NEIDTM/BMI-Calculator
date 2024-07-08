@@ -12,6 +12,12 @@
     font-family: Azeret;
 }
 
+.Notes {
+    color: #625E00;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
 body {
     background-color: #dce9aa;
 }
