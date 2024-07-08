@@ -55,8 +55,7 @@ body {
     color: #625E00;
     font-size: 100px;
     font-weight: normal;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .Age {
