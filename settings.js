@@ -15,12 +15,12 @@ CalcButton.addEventListener("click", () =>{
     height = HeightInput.value;
     weight = WeightInput.value;
     
-    if (GenderInput.value == 1, age < 0) {
+    if (GenderInput.value == 1, age > 0, height > 0, weight > 0) {
         BMI = ((age * height) / weight) * 4;
         Result.innerText = BMI;
         // alert(BMI)
     }
-    else if (GenderInput.value == 2, age < 0) {
+    else if (GenderInput.value == 2, age < 0, height > 0, weight > 0) {
         BMI = ((age * height) / weight) * 3;
         Result.innerText = BMI;
         // alert(BMI)
