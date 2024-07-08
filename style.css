@@ -1,31 +1,22 @@
-/* styles for desktop devices */
-@media only screen and (min-width: 992px) {
-  body {
-    font-size: 16px;
-    width: 80%;
-    margin: auto;
+@media (max-width: 900px) {
+    h1 {
+      font-size: 36px;
+    }
   }
-}
-
-/* styles for tablet devices */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  body {
-    font-size: 14px;
-    width: 90%;
-    margin: auto;
+  
+  @media (max-width: 420px) {
+    .input {
+      width: 200px;
+    }
+  
+    .btn {
+      width: 284px;
+    }
+  
+    h3 {
+      font-size: 20px;
+    }
   }
-}
-
-/* styles for mobile devices */
-@media only screen and (max-width: 767px) {
-  body {
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    width: 100%;
-    margin: 0;
-  }
-}
 
 @font-face {
     font-family: Azeret;
